@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e # halt script on error
+
+echo -e "\n\n************** NPM publish for @codeship/shipyard **************"
+npm publish --access public
